@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "DGElasticPullToRefresh"
+  spec.name         = "DGElasticPullToRefresh_CanStartLoading"
   spec.version      = "1.0.0"
   spec.authors      = { "Tan Wei" => "tanwei.rush@gmail.com" }
   spec.homepage     = "https://github.com/tanweirush/DGElasticPullToRefresh"
