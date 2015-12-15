@@ -117,7 +117,9 @@ public extension UIScrollView {
     // MARK: Methods (Public)
     
     public func dg_addPullToRefreshWithActionHandler(actionHandler: () -> Void) {
-        dg_addPullToRefreshWithActionHandler(actionHandler, loadingView: nil)
+        let loadingView = DGElasticPullToRefreshLoadingViewCircle()
+        loadingView.tintColor = UIColor.whiteColor()
+        dg_addPullToRefreshWithActionHandler(actionHandler, loadingView: loadingView)
     }
     
     public func dg_addPullToRefreshWithActionHandler(actionHandler: () -> Void, loadingView: DGElasticPullToRefreshLoadingView?) {
@@ -146,6 +148,10 @@ public extension UIScrollView {
     
     public func dg_stopLoading() {
         pullToRefreshView.stopLoading()
+    }
+    
+    public func dg_startLoading() {
+        pullToRefreshView.startLoading()
     }
     
     func dg_stopScrollingAnimation() {
