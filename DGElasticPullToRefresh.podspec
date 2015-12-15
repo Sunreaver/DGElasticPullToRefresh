@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.authors      = { "Tan Wei" => "tanwei.rush@gmail.com" }
   spec.homepage     = "https://github.com/tanweirush/DGElasticPullToRefresh"
-  spec.summary      = "Elastic pull to refresh compontent developed in Swift.(可设置开始刷新)"
+  spec.summary      = "Base: https://github.com/gontovnik/DGElasticPullToRefresh.(可设置开始刷新)"
   spec.source       = { :git => "https://github.com/tanwei.rush/DGElasticPullToRefresh.git", :tag => '1.0.0' }
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.platform = :ios, '8.0'
