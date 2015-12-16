@@ -146,6 +146,7 @@ public extension UIScrollView {
         pullToRefreshView.fillColor = color
     }
     
+    //add by Peter Tan
     public func dg_stopLoading() {
         pullToRefreshView.stopLoading()
     }

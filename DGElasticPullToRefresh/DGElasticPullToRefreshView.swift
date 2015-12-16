@@ -212,7 +212,8 @@ public class DGElasticPullToRefreshView: UIView {
     }
     
     func startLoading() {
-        if state == .AnimatingBounce
+        //Only Stopped can StartLoading
+        if state != .Stopped
         {
             return
         }
