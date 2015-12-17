@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "DGElasticPullToRefresh_CanStartLoading"
-  spec.version      = "1.0.3.1"
+  spec.version      = "1.0.3.2"
   spec.homepage     = "https://github.com/tanweirush/DGElasticPullToRefresh"
   spec.summary      = "Base: https://github.com/gontovnik/DGElasticPullToRefresh.(可设置开始刷新)"
   spec.source       = { :git => "https://github.com/tanweirush/DGElasticPullToRefresh.git", :tag => "#{spec.version}" }
